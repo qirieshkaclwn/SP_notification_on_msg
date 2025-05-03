@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "info_ls_ms",
+  "version": "${version}",
+
+  "name": "info_ls_ms",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "BSD-3-Clause",
+  "icon": "assets/info_ls_ms/icon.png",
+
+  "environment": "client",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
