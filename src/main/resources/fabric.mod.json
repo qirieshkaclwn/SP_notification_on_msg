@@ -2,22 +2,26 @@
   "schemaVersion": 1,
   "id": "info_ls_ms",
   "version": "${version}",
-
   "name": "info_ls_ms",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/qirieshka/info_ls_ms"
+  },
   "license": "BSD-3-Clause",
   "icon": "assets/info_ls_ms/icon.png",
-
   "environment": "client",
-  "entrypoints": {},
-
-
+  "entrypoints": {
+    "client": [
+      "qir.clwn.chat.info_ls_ms.client.Info_ls_msClient"
+    ],
+    "modmenu": [
+      "qir.clwn.chat.info_ls_ms.Info_ls_msModMenuApiImpl"
+    ]
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
