@@ -2,11 +2,12 @@
   "schemaVersion": 1,
   "id": "info_ls_ms",
   "version": "${version}",
-  "name": "info_ls_ms",
-  "description": "",
-  "authors": [],
+  "name": "SP_NTF_MSG",
+  "description": "SP_NTF_MSG – мод для уведомлений о личных сообщениях (специально для сервера СП). При получении /msg звучит выбранный звук.",
+  "authors": ["qirieshka"],
   "contact": {
-    "repo": "https://github.com/qirieshka/info_ls_ms"
+    "repo": "https://github.com/qirieshka/info_ls_ms",
+    "modrinth": "https://modrinth.com/mod/sp_ntf_msg"
   },
   "license": "BSD-3-Clause",
   "icon": "assets/info_ls_ms/icon.png",
@@ -23,5 +24,15 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "source": "https://github.com/qirieshka/info_ls_ms",
+        "modrinth": "https://modrinth.com/mod/sp_ntf_msg"
+      },
+      "badges": ["client"],
+      "description": "Уведомления о личных сообщениях с выбором звука."
+    }
   }
 }
